@@ -24,7 +24,7 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 #
 
 ## Contact
-<a> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@gordon.edu-red?style=for-the-badge&logo=mention&logoColor=white"/> <a/>
+<a href="mailto:hudson.finn@gordon.edu"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@gordon.edu-red?style=for-the-badge&logo=mention&logoColor=white"/> <a/>
 ### Stats
 [![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
