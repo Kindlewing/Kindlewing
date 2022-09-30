@@ -17,5 +17,7 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 <img align="left" alt="Rust" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
 
-### stats
+# 
+
+### Stats
 [![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
