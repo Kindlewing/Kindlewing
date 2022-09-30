@@ -18,4 +18,4 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 <br />
 
 ### stats
-[![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=cobalt)](https://github.com/anuraghazra/github-readme-stats)
+[![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=radicl)](https://github.com/anuraghazra/github-readme-stats)
