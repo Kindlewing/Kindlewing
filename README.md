@@ -1,6 +1,6 @@
 <div align="center">
-# Hudson Finn
 
+# Hudson Finn
 
 **`Software Engineer`**
 
@@ -25,4 +25,5 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 
 ### Stats
 [![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 </div>
