@@ -31,7 +31,7 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
 <br />
 <a href="https://www.buymeacoffee.com/hudsonfinn7283" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 180px !important;" >
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 20px !important;width: 180px !important;" >
 </a>
 
 ### Stats
