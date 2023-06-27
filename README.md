@@ -8,8 +8,6 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 
 ---
 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="hudsonfinn7283" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-
 ## Languages and Tools
 
 <img alt="Rust" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
@@ -31,6 +29,8 @@ I'm a recently graduated software engineer, with a focus on web development, spe
 <a href="mailto:hudson.finn@gordon.edu"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@gordon.edu-red?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
 <br />
 <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
+<br />
+<a href="https://www.buymeacoffee.com/hudsonfinn7283" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ### Stats
 
