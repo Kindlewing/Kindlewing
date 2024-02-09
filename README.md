@@ -4,10 +4,10 @@
 
 I'm a full-stack software engineer with a focus on backend. When I'm not programming, I enjoy hiking, camping, and rock climbing
 
-<p align="left"></p>
-    <p href="mailto:hudson.finn@zohomail.com"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@zohomail.com-red?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
+<p align="left">
+    <p href="mailto:hudson.finn@zohomail.com"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@zohomail.com-red?style=for-the-badge&logo=mention&logoColor=white" />
     <br />
-    <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
+    <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> 
     <br />
     </a>
 </p>
@@ -29,5 +29,3 @@ I'm a full-stack software engineer with a focus on backend. When I'm not program
 ### Stats
 
 [![Kindlewing's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kindlewing&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
