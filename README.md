@@ -2,7 +2,7 @@
 
 # Hudson Finn
 
-**`Software Engineer`**
+## **`Software Engineer`**
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## Contact
 
-<a href="mailto:hudson.finn@gordon.edu"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@gordon.edu-red?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
+<a href="mailto:hudson.finn@zohomail.com"> <img src="https://custom-icon-badges.demolab.com/badge/-hudson.finn@gordon.edu-red?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
 <br />
 <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> <a/>
 <br />
