@@ -9,8 +9,6 @@ I'm a full-stack software engineer with a focus on backend. When I'm not program
     <a href="https://www.linkedin.com/in/hudson-finn/"> <img src="https://custom-icon-badges.demolab.com/badge/-Linkedin-blue?style=for-the-badge&logo=mention&logoColor=white" /> </a>
 </p>
 
----
-
 ## Languages and Tools
 
 <a> <img alt="Rust" width="30px" style="padding-right:14px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /> </a>
