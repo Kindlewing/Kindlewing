@@ -1,6 +1,6 @@
 # Hudson Finn
 
-** Software Engineer **
+`Software Engineer`
 
 I'm a full-stack software engineer with a focus on backend. When I'm not programming, I enjoy hiking, camping, and rock climbing
 
