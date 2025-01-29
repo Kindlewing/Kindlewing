@@ -1,0 +1,6 @@
+[doc]
+name = "resume.tex"
+bundle = 
+[[output]]
+name = "resume"
+type = "pdf"

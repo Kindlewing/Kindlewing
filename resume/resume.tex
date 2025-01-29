@@ -1,0 +1,202 @@
+%-------------------------
+% Resume in Latex
+% Author : Hudson Finn
+% License : MIT
+%------------------------
+
+\documentclass{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+%-----------EDUCATION HEADER-----------
+% #1 - College/University
+% #2 - City, State
+% #3 - Degree, Major(s)
+% #4 - Active years
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%-----------MULTIPLE POSITIONS HEADER-----------
+% Use if you had multiple positions at one company
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%-----------WORK EXPERIENCE HEADER-----------
+% #1 - Company
+% #2 - Role
+% #3 - City, State
+% #4 - Active years
+\newcommand{\resumeJobheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\textbf{#1} $|$ \textit{#2,} \textit{#3}} & \textit{#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%-----------PROJECTS HEADER-----------
+% #1 - Project
+% #2 - Languages, Frameworks, and other Tools
+% #3 - Active (either date/month/year or season/year)
+\newcommand{\resumeProjectHeading}[3]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {\textbf{#1} $|$ \textit{#2}} & \textit{#3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%-----------LEADERSHIP & EXTRACURRICULARS HEADER-----------
+% #1 - Extracurricular
+% #2 - Role
+% #3 - Active years
+\newcommand{\resumeLeadershipHeading}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\textbf{#1} $|$ \textit{#2}} & \textit{#3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\scriptsize\bf \#}}
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Hudson Finn} \\ \vspace{1pt}
+    (207)-390-0809 $|$ \href{mailto:x@x.com}{\underline{hudson.finn@zohomail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/hudsonfinn}} $|$
+    \href{https://github.com/...}{\underline{github.com/Kindlewing}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gordon College}{Wenham, MA}
+      {Bachelor of Science, Computer Science}{Aug 2018 -- May 2022}
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeJobheading
+      {Automatic Distributors}{Software Engineer}{Bangor, ME}{Nov 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Maintaining company internal websites}
+		\resumeItem{Maintaining the company GitLab instance with full CI/CD}
+		\resumeItem{Migrating several of our projects to Docker}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+%-----------PROJECTS-----------
+%      \resumeProjectHeading
+%          {Flight}{Java}{Present}
+%          \resumeItemListStart
+%            \resumeItem{Designing and producing a simple game in Java, complying with Object Oriented Programming best practices}
+%            \resumeItem{High risk, high-reward gameplay emphasizes statistics and is based on DraftKing's "Rocket" and Roobet's "Crash"}
+%          \resumeItemListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: PHP, Rust, Odin, \CS, C/\CC, TypeScript, JavaScript, SQL, HTML, CSS} \\
+     \textbf{Operating Systems}{: Linux} \\
+     \textbf{DevOps}{: Docker, Gitlab, Gitlab CI/CD}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
