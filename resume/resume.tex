@@ -1,215 +1,105 @@
-
-%-------------------------
-% Resume in Latex
-% Author : Hudson Finn
-%------------------------
-
-\documentclass{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,                % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+                       
+\usepackage{XCharter}               % set font. comment this line out if you want to use the default LaTeX font Computer Modern
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[hidelinks]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
 
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
 
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-%-----------EDUCATION HEADER-----------
-% #1 - College/University
-% #2 - City, State
-% #3 - Degree, Major(s)
-% #4 - Active years
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-%-----------MULTIPLE POSITIONS HEADER-----------
-% Use if you had multiple positions at one company
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-%-----------WORK EXPERIENCE HEADER-----------
-% #1 - Company
-% #2 - Role
-% #3 - City, State
-% #4 - Active years
-\newcommand{\resumeJobheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      {\textbf{#1} $|$ \textit{#2,} \textit{#3}} & \textit{#4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-%-----------PROJECTS HEADER-----------
-% #1 - Project
-% #2 - Languages, Frameworks, and other Tools
-% #3 - Active (either date/month/year or season/year)
-\newcommand{\resumeProjectHeading}[3]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      {\textbf{#1} $|$ \textit{#2}} & \textit{#3} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-%-----------LEADERSHIP & EXTRACURRICULARS HEADER-----------
-% #1 - Extracurricular
-% #2 - Role
-% #3 - Active years
-\newcommand{\resumeLeadershipHeading}[3]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      {\textbf{#1} $|$ \textit{#2}} & \textit{#3} \\
-    \end{tabular*}\vspace{-7pt}
-}
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=7pt} %%% Test various topsep values to fix vertical spacing errors
 
 \newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\scriptsize\bf \#}}
 \newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
 \def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-
-%-------------------------------------------
-%%%%%%%%%%  RESUME STARTS HERE  %%%%%%%%%%
-
+% resume starts here
 \begin{document}
 
-%----------HEADING----------
-\begin{center}
-    \textbf{\Huge \scshape Hudson Finn} \\ \vspace{1pt}
-    (207)-390-0809 $|$ \href{mailto:hudson.finn@zohomail.com}{\underline{hudson.finn@zohomail.com}} $|$ 
-    \href{https://linkedin.com/in/hudson-finn}{\underline{Linkedin}} $|$
-    \href{https://github.com/Kindlewing}{\underline{Github}}
-\end{center}
+% name
+\centerline{\Huge Hudson Finn}
 
+\vspace{5pt}
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Gordon College}{Wenham, MA}
-      {Bachelor of Science, Computer Science}{Aug 2018 -- May 2022}
-    \resumeSubHeadingListEnd
+% contact information
+\centerline{\href{mailto:hudson.finn@zohomail.com}{hudson.finn@zohomail.com} | \href{https://github.com/Kindlewing}{github.com/Kindlewing}}
 
+\vspace{-10pt}
 
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-    \resumeJobheading
-      {Automatic Distributors}{Software Engineer}{Bangor, ME}{Nov 2022 -- Present}
-      \resumeItemListStart
-        \resumeItem{Maintaining company internal websites}
-		\resumeItem{Maintaining the company GitLab instance with full CI/CD}
-		\resumeItem{Migrating several of our projects to Docker}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-  
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-
-%-----------PROJECTS-----------
-%      \resumeProjectHeading
-%          {Flight}{Java}{Present}
-%          \resumeItemListStart
-%            \resumeItem{Designing and producing a simple game in Java, complying with Object Oriented Programming best practices}
-%            \resumeItem{High risk, high-reward gameplay emphasizes statistics and is based on DraftKing's "Rocket" and Roobet's "Crash"}
-%          \resumeItemListEnd
-
-\section{Projects}
-\resumeSubHeadingListStart
-	\resumeProjectHeading
-		{Athletic Form}{React, C-Sharp, SQL}{Fall and Spring, 2021-2022}
-		\resumeItemListStart
-			\resumeItem{This project was for the Gordon College athletic 
-				department, and served as a way to communicate with professors 
-				about an event, so they could account for missing students}
-			\resumeItem{Worked with 3 team members in an agile environment}
-			\resumeItem{Presented design documents, MVP's, demos}
-		\resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+% skills section
+\section*{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: PHP, Rust, Odin, \CS, C/\CC, TypeScript, JavaScript, SQL, HTML, CSS} \\
-     \textbf{Operating Systems}{: Linux} \\
-     \textbf{DevOps}{: Docker, Gitlab, Gitlab CI/CD}
-    }}
- \end{itemize}
+\small{\item{
+    \textbf{Languages:} PHP, Rust, Odin, \CS, C, C++, TypeScript, JavaScript, SQL, HTML, CSS \\
+    \textbf{Operating Systems:} Linux \\
+    \textbf{DevOps:} Git, Docker, Gitlab, Gitlab CI/CD
+}}
+\end{itemize}
+\vspace{-6.5pt}
 
-%-------------------------------------------
+% experience section
+\section*{Experience}
+\textbf{Software Engineer,} {Automatic Distributors} -- Bangor, ME \hfill November 2022 -- Present \\
+\vspace{-9pt}
+\begin{itemize}
+    \item{Collaborated with a team of 3 software engineers to maintain our internal shipping system.
+        The system is used to prepare packages and shipments for delivery by FedEx and USPS}
+    \item{Developed a heartbeat monitor page which notifies employees of API outages with FedEx and USPS}
+    \item{Deployed and maintained our company Gitlab instance}
+    \item{Migrated the company's repositories over to our Gitlab instance, 
+        which was set up with CI/CD to deploy to multiple servers}
+    \item{Maintained a self-hosted instance of Request Tracker, a ticket management system}
+    \item{Migrated our projects to Docker}
+\end{itemize}
+
+
+% \textbf{Job Title,} \href{https://www.fstl1992.com/}{Company} -- City, ST \hfill XXXX -- XXXX \\
+% \vspace{-9pt}
+
+\vspace{-18.5pt}
+
+% projects section
+\section*{Projects}
+\textbf{Athletic Form} \hfill \href{https://github.com/gordon-cs/athletic-form}{github.com/gordon-cs/athletic-form} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item{This project was for the Gordon College athletic department, and served as a way to communicate with professors 
+		  about an event, so they could account for missing students}
+  \item{Used React to build an effective UI for professors and coaches to use}
+  \item{Built the API from scratch in \CS}
+  \item{Worked extensively in the college's SQL database}
+  \item{Worked with 3 team members in an agile environment}
+  \item{Presented design documents and MVP's}
+  \item{Met extensively with one of the lead coaches to discuss requirements}
+\end{itemize}
+
+% alternate formatting for projects section
+% \section*{Projects}
+% \begin{itemize}
+%   \item \textbf{QuantSoftware Toolkit:} Open source Python library for data analysis and machine learning for finance
+%   \item \textbf{GitHub Visualization:} Data visualization of Git Log data using D3 to analyze project trends over time
+%   \item \textbf{Recommendation System:} Music and movie recommender systems using collaborative filtering on public datasets
+%   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
+% \end{itemize}
+
+\vspace{-18.5pt}
+
+% education section
+\section*{Education}
+\textbf{Gordon College} -- Bachelor of Science, Computer Science \hfill May 2022
 \end{document}
